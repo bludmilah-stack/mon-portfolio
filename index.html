@@ -7,6 +7,9 @@
     <meta name="title" content="Entrepreneuriat &amp; Développement">
     <meta property="og:title" content="Entrepreneuriat &amp; Développement">
     <meta name="twitter:title" content="Entrepreneuriat &amp; Développement">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -37,15 +40,18 @@
     <section id="hero" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">Bien Venu</h1>
-                <h2 class="hero-title">Jeune entrepreneur dynamique, créatif et polyvalent</h2>
-                <p class="hero-subtitle">Gestion de projet, marketing digital, communication et entrepreneuriat au service d'idées utiles et ambitieuses.</p>
-                <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
-                    Voir mes projets
-                </button>
+                <span class="hero-kicker">Marketing Digital · Gestion de projet · Madagascar</span>
+                <h1 class="hero-title">Je transforme les idées ambitieuses en projets visibles.</h1>
+                <p class="hero-subtitle">Stratégie digitale, coordination terrain et communication claire pour faire grandir des marques utiles.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary hero-cta" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                        Voir mes projets
+                    </button>
+                    <a href="#contact" class="btn btn-outline hero-cta">Me contacter</a>
+                </div>
             </div>
             <div class="hero-image">
-                <img src="images/WhatsApp Image 2026-05-12 at 09.45.12.png" alt="LUDMILAH Bien Venu" onerror="this.src='https://via.placeholder.com/300'">
+                <img src="images/WhatsApp Image 2026-05-12 at 09.45.12.png" alt="Portrait de LUDMILAH" onerror="this.src='https://via.placeholder.com/300'">
             </div>
         </div>
     </section>
@@ -130,7 +136,8 @@
                             <span class="timeline-date">2025 - Aujourd'hui</span>
                             <span class="badge">Entrepreneuriat</span>
                         </div>
-                        <h3>Fondateur - de Projet TSITORO </h3>
+                        <h3>Fondateur de projet</h3>
+                        <span class="timeline-company">Projet TSITORO</span>
                         <p>Création et développement d'une activité de transformation artisanale valorisant les ressources locales.</p>
                         <ul>
                             <li>Création d'une activité de transformation artisanale</li>
@@ -147,7 +154,8 @@
                             <span class="timeline-date">2026</span>
                             <span class="badge">Gestion de projet</span>
                         </div>
-                        <h3>Directeur de Projet CYE - JCI Mahajanga</h3>
+                        <h3>Directeur de projet CYE</h3>
+                        <span class="timeline-company">JCI Mahajanga</span>
                         <p>Coordination d'un projet entrepreneurial avec une approche orientée résultats, équipe et impact.</p>
                         <ul>
                             <li>Coordination de projet entrepreneurial</li>
@@ -164,7 +172,8 @@
                             <span class="timeline-date">2026</span>
                             <span class="badge">Marketing & Design</span>
                         </div>
-                        <h3>Stagiaire Marketing & Design - Zanatan'i Mahajanga</h3>
+                        <h3>Stagiaire Marketing & Design</h3>
+                        <span class="timeline-company">Zanatan'i Mahajanga</span>
                         <p>Participation aux actions digitales et visuelles pour renforcer la présence de marque.</p>
                         <ul>
                             <li>Création de visuels</li>
@@ -181,7 +190,8 @@
                             <span class="timeline-date">2025</span>
                             <span class="badge">Stock & Logistique</span>
                         </div>
-                        <h3>Stagiaire en gestion de stock - AQUALMA Mahajanga</h3>
+                        <h3>Stagiaire en gestion de stock</h3>
+                        <span class="timeline-company">AQUALMA Mahajanga</span>
                         <p>Appui à l'organisation des flux et au suivi des approvisionnements dans un environnement structuré.</p>
                         <ul>
                             <li>Gestion des flux de marchandises</li>
@@ -198,7 +208,8 @@
                             <span class="timeline-date">2022 - 2024</span>
                             <span class="badge">Administration</span>
                         </div>
-                        <h3>Assistant Directeur - Entreprise MAEVA</h3>
+                        <h3>Assistant Directeur</h3>
+                        <span class="timeline-company">Entreprise MAEVA</span>
                         <p>Appui opérationnel auprès de la direction pour assurer le suivi administratif et les besoins internes.</p>
                         <ul>
                             <li>Appui administratif</li>
@@ -214,7 +225,8 @@
                             <span class="timeline-date">2022 - 2024</span>
                             <span class="badge">Logistique</span>
                         </div>
-                        <h3>Magasinier - Agence de transport maritime</h3>
+                        <h3>Magasinier</h3>
+                        <span class="timeline-company">Agence de transport maritime</span>
                         <p>Gestion terrain des marchandises avec rigueur, organisation et sens des priorités.</p>
                         <ul>
                             <li>Gestion des marchandises</li>
@@ -230,7 +242,8 @@
                             <span class="timeline-date">2024 - 2026</span>
                             <span class="badge">Documentation</span>
                         </div>
-                        <h3>Secrétaire de séance - SARL MAEVA</h3>
+                        <h3>Secrétaire de séance</h3>
+                        <span class="timeline-company">SARL MAEVA</span>
                         <p>Production et suivi des documents de réunion avec précision et sens de la synthèse.</p>
                         <ul>
                             <li>Gestion documentaire</li>
@@ -288,7 +301,10 @@
                     </div>
                     <div class="project-content">
                         <h3>TSITORO</h3>
-                        <p class="project-category">Projet Entrepreneurial</p>
+                        <div class="project-badges">
+                            <span class="project-badge badge-food">Agroalimentaire</span>
+                            <span class="project-badge badge-business">Entrepreneuriat</span>
+                        </div>
                         <p class="project-description">
                             Transformation d'un fruit local méconnu en produits modernes et commercialisables. 
                             Valorisation des richesses locales et développement d'une marque malgache attractive 
@@ -301,7 +317,7 @@
                             <span>#Marque Locale</span>
                         </div>
                         <a href="project-tsitoro.html" class="btn btn-secondary">
-                            En savoir plus
+                            Voir le projet
                         </a>
                     </div>
                 </div>
@@ -320,7 +336,10 @@
                     </div>
                     <div class="project-content">
                         <h3>Projet CYE - 2ème Place Nationale</h3>
-                        <p class="project-category">Gestion de Projet</p>
+                        <div class="project-badges">
+                            <span class="project-badge badge-project">Gestion de projet</span>
+                            <span class="project-badge badge-award">2e place nationale</span>
+                        </div>
                         <p class="project-description">
                             Pilotage réussi d'un projet entrepreneurial dans le cadre du programme CYE de la JCI Mahajanga, 
                             ayant atteint la 2ème place au concours national. Démonstration de compétences en gestion 
@@ -333,7 +352,7 @@
                             <span>#Performance</span>
                         </div>
                         <a href="project-cye.html" class="btn btn-secondary">
-                            Détails
+                            Voir le projet
                         </a>
                     </div>
                 </div>
@@ -352,7 +371,10 @@
                     </div>
                     <div class="project-content">
                         <h3>MedPreneur</h3>
-                        <p class="project-category">Entrepreneuriat Santé</p>
+                        <div class="project-badges">
+                            <span class="project-badge badge-health">Santé</span>
+                            <span class="project-badge badge-business">Entrepreneuriat</span>
+                        </div>
                         <p class="project-description">
                             Projet innovant axé sur l'entrepreneuriat dans le domaine de la santé. Direction d'initiatives 
                             visant à développer des solutions entrepreneuriales pour le secteur médical et l'innovation 
@@ -365,7 +387,7 @@
                             <span>#Social</span>
                         </div>
                         <a href="project-medpreneur.html" class="btn btn-secondary">
-                            Découvrir
+                            Voir le projet
                         </a>
                     </div>
                 </div>
@@ -377,51 +399,88 @@
     <section class="skills-section">
         <div class="container">
             <h2 class="section-title">Compétences</h2>
+            <p class="skills-intro">Un ensemble de compétences complémentaires pour piloter, communiquer et développer des projets avec méthode.</p>
             <div class="premium-skills">
-                <article class="skill-category">
-                    <i class="fas fa-list-check"></i>
-                    <h3>Gestion de projet</h3>
+                <article class="skill-category" style="--skill-level: 92%;">
+                    <div class="skill-icon"><i class="fas fa-list-check"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Gestion de projet</h3>
+                        <span>92%</span>
+                    </div>
                     <p>Planification, coordination, suivi des performances et organisation d'activités.</p>
+                    <div class="skill-progress" aria-label="Niveau en gestion de projet"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-users-gear"></i>
-                    <h3>Leadership</h3>
+                <article class="skill-category" style="--skill-level: 88%;">
+                    <div class="skill-icon"><i class="fas fa-users-gear"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Leadership</h3>
+                        <span>88%</span>
+                    </div>
                     <p>Animation d'équipe, prise d'initiative, responsabilité associative et sens du résultat.</p>
+                    <div class="skill-progress" aria-label="Niveau en leadership"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Marketing digital</h3>
+                <article class="skill-category" style="--skill-level: 90%;">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Marketing digital</h3>
+                        <span>90%</span>
+                    </div>
                     <p>Stratégie client, contenus digitaux, visibilité de marque et communication commerciale.</p>
+                    <div class="skill-progress" aria-label="Niveau en marketing digital"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-palette"></i>
-                    <h3>Design visuel</h3>
+                <article class="skill-category" style="--skill-level: 84%;">
+                    <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Design visuel</h3>
+                        <span>84%</span>
+                    </div>
                     <p>Création de visuels, mise en valeur de messages et cohérence graphique.</p>
+                    <div class="skill-progress" aria-label="Niveau en design visuel"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-comments"></i>
-                    <h3>Communication</h3>
+                <article class="skill-category" style="--skill-level: 89%;">
+                    <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Communication</h3>
+                        <span>89%</span>
+                    </div>
                     <p>Sensibilisation, rédaction, gestion de contenus et communication institutionnelle.</p>
+                    <div class="skill-progress" aria-label="Niveau en communication"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-truck-ramp-box"></i>
-                    <h3>Stock & logistique</h3>
+                <article class="skill-category" style="--skill-level: 82%;">
+                    <div class="skill-icon"><i class="fas fa-truck-ramp-box"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Stock & logistique</h3>
+                        <span>82%</span>
+                    </div>
                     <p>Gestion de stock, flux de marchandises, approvisionnement et organisation terrain.</p>
+                    <div class="skill-progress" aria-label="Niveau en stock et logistique"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-share-nodes"></i>
-                    <h3>Réseaux sociaux</h3>
+                <article class="skill-category" style="--skill-level: 87%;">
+                    <div class="skill-icon"><i class="fas fa-share-nodes"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Réseaux sociaux</h3>
+                        <span>87%</span>
+                    </div>
                     <p>Animation de présence digitale, création de contenus et suivi de communication.</p>
+                    <div class="skill-progress" aria-label="Niveau en réseaux sociaux"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-file-word"></i>
-                    <h3>Word / Excel</h3>
+                <article class="skill-category" style="--skill-level: 85%;">
+                    <div class="skill-icon"><i class="fas fa-file-word"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Word / Excel</h3>
+                        <span>85%</span>
+                    </div>
                     <p>Documents professionnels, tableaux de suivi, comptes rendus et organisation de données.</p>
+                    <div class="skill-progress" aria-label="Niveau en Word et Excel"><span></span></div>
                 </article>
-                <article class="skill-category">
-                    <i class="fas fa-code"></i>
-                    <h3>Développement web</h3>
+                <article class="skill-category" style="--skill-level: 76%;">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <div class="skill-card-top">
+                        <h3>Développement web</h3>
+                        <span>76%</span>
+                    </div>
                     <p>Notions en HTML, CSS, JavaScript, design responsive et création de pages web.</p>
+                    <div class="skill-progress" aria-label="Niveau en développement web"><span></span></div>
                 </article>
             </div>
         </div>
