@@ -1,0 +1,116 @@
+{
+  "site": {
+    "name": "LUDMILAH Bien Venu",
+    "title": "Entrepreneur & Developer Junior | Designer",
+    "description": "Portfolio professionnel de LUDMILAH Bien Venu - Entrepreneur, Developer et Designer junior",
+    "author": "LUDMILAH Bien Venu",
+    "year": 2026
+  },
+  "contact": {
+    "email": "bludmilah@yahoo.com",
+    "phone": "+261 32 97 238 11",
+    "address": "Ambalavola Lot 115 Plle 421",
+    "city": "Mahajanga",
+    "country": "Madagascar"
+  },
+  "socials": {
+    "facebook": "https://facebook.com/",
+    "linkedin": "https://linkedin.com/in/",
+    "instagram": "https://instagram.com/",
+    "github": "https://github.com/",
+    "twitter": "https://twitter.com/"
+  },
+  "colors": {
+    "primary": "#a855f7",
+    "secondary": "#ec4899",
+    "darkBg": "#0f172a",
+    "cardBg": "#1e293b",
+    "textPrimary": "#f1f5f9",
+    "textSecondary": "#cbd5e1"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "TSITORO",
+      "category": "Projet Entrepreneurial",
+      "description": "Transformation d'un fruit local méconnu en produits modernes et commercialisables. Valorisation des richesses locales et développement d'une marque malgache attractive.",
+      "image": "images/tsitoro.jpg",
+      "tags": ["Entrepreneuriat", "Agroalimentaire", "Innovation", "Marque Locale"],
+      "organization": "SAYA",
+      "status": "En cours"
+    },
+    {
+      "id": 2,
+      "title": "Projet CYE - 2ème Place Nationale",
+      "category": "Gestion de Projet",
+      "description": "Pilotage réussi d'un projet entrepreneurial ayant atteint la 2ème place au concours national.",
+      "image": "images/cye.jpg",
+      "tags": ["Gestion Projet", "Leadership", "Entrepreneuriat", "Performance"],
+      "organization": "JCI Mahajanga",
+      "status": "Réussi"
+    },
+    {
+      "id": 3,
+      "title": "MedPreneur",
+      "category": "Entrepreneuriat Santé",
+      "description": "Projet innovant axé sur l'entrepreneuriat dans le domaine de la santé.",
+      "image": "images/medpreneur.jpg",
+      "tags": ["Santé", "Innovation", "Entrepreneuriat", "Social"],
+      "organization": "JCI Mahajanga",
+      "status": "En cours"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "title": "Directeur de Projet CYE",
+      "organization": "JCI Mahajanga",
+      "description": "Pilotage d'un projet ayant obtenu la 2ème place au niveau national lors d'un concours de projets.",
+      "achievements": [
+        "Gestion d'équipe",
+        "Leadership",
+        "Accompagnement vers la performance",
+        "Reconnaissance nationale"
+      ],
+      "skills": ["Gestion de Projet", "Leadership", "Management d'Équipe"]
+    },
+    {
+      "id": 2,
+      "title": "Directeur du Projet MedPreneur",
+      "organization": "JCI Mahajanga",
+      "description": "Direction d'un projet d'entrepreneuriat dans le domaine de la santé.",
+      "achievements": [
+        "Innovation sociale",
+        "Solutions médico-entrepreneuriales",
+        "Développement durable"
+      ],
+      "skills": ["Entrepreneuriat", "Innovation", "Santé"]
+    }
+  ],
+  "skills": {
+    "entrepreneurship": [
+      "Création d'entreprise",
+      "Gestion de projet",
+      "Innovation produit",
+      "Business plan"
+    ],
+    "leadership": [
+      "Management d'équipe",
+      "Prise de décision",
+      "Stratégie",
+      "Communication"
+    ],
+    "development": [
+      "HTML/CSS/JavaScript",
+      "Web Design",
+      "Responsive Design",
+      "UX/UI"
+    ],
+    "design": [
+      "Design graphique",
+      "Branding",
+      "Design thinking",
+      "Prototypage"
+    ]
+  }
+}

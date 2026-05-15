@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUDMILAH Bien Venu - Entrepreneur & Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <img src="images/logo.png" alt="Logo" class="logo" onerror="this.style.display='none'">
+                <span>LUDMILAH  </span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Bien Venu</h1>
+                <h2 class="hero-title">Jeune entrepreneur dynamique, créatif et polyvalent</h2>
+                <p class="hero-subtitle">Gestion de projet, marketing digital, communication et entrepreneuriat au service d'idées utiles et ambitieuses.</p>
+                <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                    Voir mes projets
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="images/WhatsApp Image 2026-05-12 at 09.45.12.png" alt="LUDMILAH Bien Venu" onerror="this.src='https://via.placeholder.com/300'">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <h2 class="section-title">À propos de moi</h2>
+                    <p class="about-text">
+                        Je suis un jeune entrepreneur dynamique, créatif et polyvalent, spécialisé en gestion de projet,
+                        marketing digital, communication et entrepreneuriat. J'aime transformer les idées en initiatives
+                        concrètes, structurées et utiles pour leur marché.
+                    </p>
+                    <p class="about-text">
+                        Mon parcours combine création d'activité, coordination d'équipe, gestion de stock, design visuel
+                        et engagement associatif. Cette diversité me permet d'avancer avec méthode, sens du terrain et
+                        esprit d'innovation.
+                    </p>
+                    
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bludmilah@yahoo.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+261 32 97 238 11</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp : 032 97 238 11</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ambalavola Lot 115 Plle 421</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/261329723811" target="_blank" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:bludmilah@yahoo.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/WhatsApp Image 2026-05-12 at 09.45.12.jpeg" alt="LUDMILAH" onerror="this.src='https://via.placeholder.com/400'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Parcours professionnel</h2>
+            <p class="section-intro">
+                Un parcours construit entre entrepreneuriat, projets associatifs, marketing, communication et logistique.
+                Chaque mission renforce ma capacité à organiser, créer, coordonner et développer des solutions concrètes.
+            </p>
+
+            <div class="experience-timeline">
+                <article class="timeline-card featured">
+                    <div class="timeline-icon"><i class="fas fa-seedling"></i></div>
+                    <div class="timeline-body">
+                        <div class="timeline-topline">
+                            <span class="timeline-date">2025 - Aujourd'hui</span>
+                            <span class="badge">Entrepreneuriat</span>
+                        </div>
+                        <h3>Fondateur - de Projet TSITORO </h3>
+                        <p>Création et développement d'une activité de transformation artisanale valorisant les ressources locales.</p>
+                        <ul>
+                            <li>Création d'une activité de transformation artisanale</li>
+                            <li>Gestion des stocks et approvisionnements</li>
+                            <li>Développement marketing et stratégie client</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-card featured">
+                    <div class="timeline-icon"><i class="fas fa-diagram-project"></i></div>
+                    <div class="timeline-body">
+                        <div class="timeline-topline">
+                            <span class="timeline-date">2026</span>
+                            <span class="badge">Gestion de projet</span>
+                        </div>
+                        <h3>Directeur de Projet CYE - JCI Mahajanga</h3>
+                        <p>Coordination d'un projet entrepreneurial avec une approche orientée résultats, équipe et impact.</p>
+                        <ul>
+                            <li>Coordination de projet entrepreneurial</li>
+                            <li>Gestion d'équipe</li>
+                            <li>Organisation d'activités et suivi des performances</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-card">
+                    <div class="timeline-icon"><i class="fas fa-pen-nib"></i></div>
+                    <div class="timeline-body">
+                        <div class="timeline-topline">
+                            <span class="timeline-date">2026</span>
+                            <span class="badge">Marketing & Design</span>
+                        </div>
+                        <h3>Stagiaire Marketing & Design - Zanatan'i Mahajanga</h3>
+                        <p>Participation aux actions digitales et visuelles pour renforcer la présence de marque.</p>
+                        <ul>
+                            <li>Création de visuels</li>
+                            <li>Gestion des contenus digitaux</li>
+                            <li>Participation aux stratégies marketing</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-card">
+                    <div class="timeline-icon"><i class="fas fa-boxes-stacked"></i></div>
+                    <div class="timeline-body">
+                        <div class="timeline-topline">
+                            <span class="timeline-date">2025</span>
+                            <span class="badge">Stock & Logistique</span>
+                        </div>
+                        <h3>Stagiaire en gestion de stock - AQUALMA Mahajanga</h3>
+                        <p>Appui à l'organisation des flux et au suivi des approvisionnements dans un environnement structuré.</p>
+                        <ul>
+                            <li>Gestion des flux de marchandises</li>
+                            <li>Organisation des stocks</li>
+                            <li>Suivi des approvisionnements</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-card">
+                    <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-body">
+                        <div class="timeline-topline">
+                            <span class="timeline-date">2022 - 2024</span>
+                            <span class="badge">Administration</span>
+                        </div>
+                        <h3>Assistant Directeur - Entreprise MAEVA</h3>
+                        <p>Appui opérationnel auprès de la direction pour assurer le suivi administratif et les besoins internes.</p>
+                        <ul>
+                            <li>Appui administratif</li>
+                            <li>Suivi des approvisionnements</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-card">
+                    <div class="timeline-icon"><i class="fas fa-warehouse"></i></div>
+                    <div class="timeline-body">
+                        <div class="timeline-topline">
+                            <span class="timeline-date">2022 - 2024</span>
+                            <span class="badge">Logistique</span>
+                        </div>
+                        <h3>Magasinier - Agence de transport maritime</h3>
+                        <p>Gestion terrain des marchandises avec rigueur, organisation et sens des priorités.</p>
+                        <ul>
+                            <li>Gestion des marchandises</li>
+                            <li>Organisation des stocks</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-card">
+                    <div class="timeline-icon"><i class="fas fa-file-signature"></i></div>
+                    <div class="timeline-body">
+                        <div class="timeline-topline">
+                            <span class="timeline-date">2024 - 2026</span>
+                            <span class="badge">Documentation</span>
+                        </div>
+                        <h3>Secrétaire de séance - SARL MAEVA</h3>
+                        <p>Production et suivi des documents de réunion avec précision et sens de la synthèse.</p>
+                        <ul>
+                            <li>Gestion documentaire</li>
+                            <li>Rédaction de comptes rendus</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <div class="leadership-panel">
+                <div class="panel-heading">
+                    <span class="eyebrow">Engagements associatifs & leadership</span>
+                    <h3>Un leadership ancré dans l'action citoyenne</h3>
+                </div>
+                <div class="leadership-cards">
+                    <article class="leadership-item">
+                        <i class="fas fa-scale-balanced"></i>
+                        <span>2024 - 2026</span>
+                        <h4>SAKAIZA TRAINERS - Transparency International Mahajanga</h4>
+                        <p>Formation et sensibilisation citoyenne, travail d'équipe et leadership associatif.</p>
+                    </article>
+                    <article class="leadership-item">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>2024 - 2026</span>
+                        <h4>Responsable de Communication - Association des Défenseurs des Droits Humains Mahajanga</h4>
+                        <p>Gestion de communication, création de contenus, sensibilisation et réseaux sociaux.</p>
+                    </article>
+                    <article class="leadership-item">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <span>2026</span>
+                        <h4>Vice-Président - Association N10 Humanitaire Madagascar</h4>
+                        <p>Coordination d'activités humanitaires, gestion organisationnelle et leadership.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <figure class="project-image project-image-main">
+                            <img src="images/projects/tsitoro-strategy.jpg" alt="Tableau de bord et rapport d'activite illustrant la strategie TSITORO">
+                            <figcaption>Strategie produit et analyse</figcaption>
+                        </figure>
+                        <div class="project-gallery" aria-label="Photos du projet TSITORO">
+                            <img src="images/projects/tsitoro-networking.jpg" alt="Presentation et reseautage autour de la marque TSITORO">
+                            <img src="images/projects/tsitoro-event.jpg" alt="Evenement de lancement et mise en relation pour TSITORO">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TSITORO</h3>
+                        <p class="project-category">Projet Entrepreneurial</p>
+                        <p class="project-description">
+                            Transformation d'un fruit local méconnu en produits modernes et commercialisables. 
+                            Valorisation des richesses locales et développement d'une marque malgache attractive 
+                            à travers l'innovation agroalimentaire.
+                        </p>
+                        <div class="project-tags">
+                            <span>#Entrepreneuriat</span>
+                            <span>#Agroalimentaire</span>
+                            <span>#Innovation</span>
+                            <span>#Marque Locale</span>
+                        </div>
+                        <a href="project-tsitoro.html" class="btn btn-secondary">
+                            En savoir plus
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <figure class="project-image project-image-main">
+                            <img src="images/projects/cye-leadership.jpg" alt="Rencontre professionnelle lors du projet CYE">
+                            <figcaption>Concours national et leadership</figcaption>
+                        </figure>
+                        <div class="project-gallery" aria-label="Photos du projet CYE">
+                            <img src="images/projects/cye-team.jpg" alt="Equipe et coordination pendant le projet CYE">
+                            <img src="images/projects/cye-recognition.jpg" alt="Photo d'equipe illustrant la reconnaissance du projet CYE">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet CYE - 2ème Place Nationale</h3>
+                        <p class="project-category">Gestion de Projet</p>
+                        <p class="project-description">
+                            Pilotage réussi d'un projet entrepreneurial dans le cadre du programme CYE de la JCI Mahajanga, 
+                            ayant atteint la 2ème place au concours national. Démonstration de compétences en gestion 
+                            d'équipe et stratégie.
+                        </p>
+                        <div class="project-tags">
+                            <span>#Gestion Projet</span>
+                            <span>#Leadership</span>
+                            <span>#Entrepreneuriat</span>
+                            <span>#Performance</span>
+                        </div>
+                        <a href="project-cye.html" class="btn btn-secondary">
+                            Détails
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-media">
+                        <figure class="project-image project-image-main">
+                            <img src="images/projects/medpreneur-partners.jpeg" alt="Rencontre de partenaires pour le projet MedPreneur">
+                            <figcaption>Sante, partenaires et impact</figcaption>
+                        </figure>
+                        <div class="project-gallery" aria-label="Photos du projet MedPreneur">
+                            <img src="images/projects/medpreneur-exchange.jpeg" alt="Echange avec des partenaires autour de MedPreneur">
+                            <img src="images/projects/medpreneur-networking.jpeg" alt="Moment de reseautage professionnel pour MedPreneur">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MedPreneur</h3>
+                        <p class="project-category">Entrepreneuriat Santé</p>
+                        <p class="project-description">
+                            Projet innovant axé sur l'entrepreneuriat dans le domaine de la santé. Direction d'initiatives 
+                            visant à développer des solutions entrepreneuriales pour le secteur médical et l'innovation 
+                            sociale en santé.
+                        </p>
+                        <div class="project-tags">
+                            <span>#Santé</span>
+                            <span>#Innovation</span>
+                            <span>#Entrepreneuriat</span>
+                            <span>#Social</span>
+                        </div>
+                        <a href="project-medpreneur.html" class="btn btn-secondary">
+                            Découvrir
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="premium-skills">
+                <article class="skill-category">
+                    <i class="fas fa-list-check"></i>
+                    <h3>Gestion de projet</h3>
+                    <p>Planification, coordination, suivi des performances et organisation d'activités.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-users-gear"></i>
+                    <h3>Leadership</h3>
+                    <p>Animation d'équipe, prise d'initiative, responsabilité associative et sens du résultat.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Marketing digital</h3>
+                    <p>Stratégie client, contenus digitaux, visibilité de marque et communication commerciale.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-palette"></i>
+                    <h3>Design visuel</h3>
+                    <p>Création de visuels, mise en valeur de messages et cohérence graphique.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-comments"></i>
+                    <h3>Communication</h3>
+                    <p>Sensibilisation, rédaction, gestion de contenus et communication institutionnelle.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-truck-ramp-box"></i>
+                    <h3>Stock & logistique</h3>
+                    <p>Gestion de stock, flux de marchandises, approvisionnement et organisation terrain.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-share-nodes"></i>
+                    <h3>Réseaux sociaux</h3>
+                    <p>Animation de présence digitale, création de contenus et suivi de communication.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-file-word"></i>
+                    <h3>Word / Excel</h3>
+                    <p>Documents professionnels, tableaux de suivi, comptes rendus et organisation de données.</p>
+                </article>
+                <article class="skill-category">
+                    <i class="fas fa-code"></i>
+                    <h3>Développement web</h3>
+                    <p>Notions en HTML, CSS, JavaScript, design responsive et création de pages web.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info-box">
+                    <h3>Informations de Contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:bludmilah@yahoo.com">bludmilah@yahoo.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+261329723811">+261 32 97 238 11</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/261329723811" target="_blank">032 97 238 11</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>Ambalavola Lot 115 Plle 421</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Votre nom" required>
+                    <input type="email" placeholder="Votre email" required>
+                    <input type="text" placeholder="Sujet">
+                    <textarea placeholder="Votre message" rows="6" required></textarea>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 LUDMILAH Bien Venu. Tous droits réservés.</p>
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/261329723811" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
