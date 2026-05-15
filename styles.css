@@ -2435,3 +2435,129 @@ h4 {
         font-size: 0.9rem;
     }
 }
+
+/* ===== Netlify hero hotfix ===== */
+.hero {
+    min-height: 100vh !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    align-items: center !important;
+    gap: 3rem !important;
+    padding: 7rem 4rem 4rem !important;
+    background:
+        radial-gradient(ellipse 60% 70% at 15% 50%, rgba(26, 107, 255, 0.18) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 50% at 80% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+        linear-gradient(135deg, #071120 0%, #0a0f1e 45%, #050812 100%) !important;
+}
+
+.hero .hero-content,
+.hero .hero-visual {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+.hero .hero-title {
+    color: #ffffff !important;
+    font-size: clamp(3rem, 5vw, 4.6rem) !important;
+    line-height: 1.08 !important;
+    letter-spacing: 0 !important;
+}
+
+.hero .hero-title .highlight {
+    color: #3b82f6 !important;
+}
+
+.hero .hero-subtitle {
+    color: rgba(255, 255, 255, 0.72) !important;
+    max-width: 520px !important;
+}
+
+.hero .cta-row {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    flex-wrap: wrap !important;
+}
+
+.hero .btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    border-radius: 6px !important;
+    padding: 0.85rem 2rem !important;
+    text-decoration: none !important;
+    min-height: 52px !important;
+}
+
+.hero .btn svg {
+    width: 16px !important;
+    height: 16px !important;
+    stroke: currentColor !important;
+    fill: none !important;
+    stroke-width: 2 !important;
+    flex-shrink: 0 !important;
+}
+
+.hero .btn-outline {
+    background: transparent !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 6px !important;
+    padding: 0.85rem 2rem !important;
+}
+
+.hero .photo-frame {
+    width: min(420px, 100%) !important;
+    margin: 0 auto !important;
+}
+
+.hero .photo-img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 560px !important;
+    object-fit: cover !important;
+    object-position: top center !important;
+}
+
+@media (max-width: 900px) {
+    .hero {
+        grid-template-columns: 1fr !important;
+        min-height: auto !important;
+        padding: 6rem 1.5rem 3rem !important;
+        gap: 2rem !important;
+        text-align: left !important;
+    }
+
+    .hero .hero-title {
+        font-size: clamp(2.4rem, 11vw, 3.6rem) !important;
+    }
+
+    .hero .hero-visual {
+        order: 0 !important;
+    }
+
+    .hero .photo-frame {
+        width: min(360px, 100%) !important;
+    }
+}
+
+@media (max-width: 520px) {
+    .hero .badge-row,
+    .hero .cta-row,
+    .hero .stats-row {
+        justify-content: flex-start !important;
+    }
+
+    .hero .btn {
+        width: 100% !important;
+    }
+
+    .hero .photo-badge,
+    .hero .photo-badge-bottom {
+        position: static !important;
+        margin: 0.75rem 0 !important;
+        width: fit-content !important;
+    }
+}
