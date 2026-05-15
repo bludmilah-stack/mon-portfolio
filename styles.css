@@ -699,9 +699,9 @@ h4 {
 
 /* === Hero styles from hero-section snippet === */
 .hero {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  min-height: 100vh !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
   align-items: center;
   padding: 7rem 4rem 4rem;
   position: relative;
@@ -845,6 +845,8 @@ h4 {
   background: transparent;
   color: rgba(255,255,255,0.7);
   border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 6px;
+  padding: 0.85rem 2rem;
 }
 
 .btn-outline:hover {
@@ -1011,7 +1013,7 @@ h4 {
 
 @media (max-width: 768px) {
   .hero {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     padding: 6rem 1.5rem 3rem;
     text-align: center;
     gap: 2rem;
